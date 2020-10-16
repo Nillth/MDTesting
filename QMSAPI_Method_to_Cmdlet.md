@@ -1,271 +1,138 @@
 
 ### Method to Cmdlet Mapping
+- [AbortTask](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_AbortTask.htm) = [](./PWSH/Generated//.cs)
+- [AddSelections](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_AddSelections.htm) = [](./PWSH/Generated//.cs)
+- [CheckLicenseServerStatus](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_CheckLicenseServerStatus.htm) = [](./PWSH/Generated//.cs)
+- [ClearLicense](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_ClearLicense.htm) = [](./PWSH/Generated//.cs)
+- [ClearQVSCache](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_ClearQVSCache.htm) = [](./PWSH/Generated//.cs)
+- [ClearSelections](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_ClearSelections.htm) = [](./PWSH/Generated//.cs)
+- [CloseAndInstallExtensionObject](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_CloseAndInstallExtensionObject.htm) = [](./PWSH/Generated//.cs)
+- [CloseSession](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_CloseSession.htm) = [](./PWSH/Generated//.cs)
+- [CreateSession](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_CreateSession.htm) = [](./PWSH/Generated//.cs)
+- [DeleteAssignedUsers](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_DeleteAssignedUsers.htm) = [](./PWSH/Generated//.cs)
+- [DeleteDocumentAdministrators](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_DeleteDocumentAdministrators.htm) = [](./PWSH/Generated//.cs)
+- [DeleteSectionAccessTable](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_DeleteSectionAccessTable.htm) = [](./PWSH/Generated//.cs)
+- [DeleteServerObject](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_DeleteServerObject.htm) = [](./PWSH/Generated//.cs)
+- [DeleteTask](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_DeleteTask.htm) = [](./PWSH/Generated//.cs)
+- [DisplayInitializationUI](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_DisplayInitializationUI.htm) = [](./PWSH/Generated//.cs)
+- [FindEDX](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_FindEDX.htm) = [](./PWSH/Generated//.cs)
+- [FindTask](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_FindTask.htm) = [](./PWSH/Generated//.cs)
+- [GetAlertText](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetAlertText.htm) = [](./PWSH/Generated//.cs)
+- [GetAllDistributionGroups](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetAllDistributionGroups.htm) = [](./PWSH/Generated//.cs)
+- [GetAllMissingDistributionGroups](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetAllMissingDistributionGroups.htm) = [](./PWSH/Generated//.cs)
+- [GetAssignedUsers](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetAssignedUsers.htm) = [](./PWSH/Generated//.cs)
+- [GetAvailableDirectories](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetAvailableDirectories.htm) = [](./PWSH/Generated//.cs)
+- [GetAvailableDSProviders](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetAvailableDSProviders.htm) = [](./PWSH/Generated//.cs)
+- [GetCALConfiguration](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetCALConfiguration.htm) = [](./PWSH/Generated//.cs)
+- [GetCALInfoForUser](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetCALInfoForUser.htm) = [](./PWSH/Generated//.cs)
+- [GetCategories](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetCategories.htm) = [](./PWSH/Generated//.cs)
+- [GetDistributionGroups](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetDistributionGroups.htm) = [](./PWSH/Generated//.cs)
+- [GetDistributionGroupsDefinition](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetDistributionGroupsDefinition.htm) = [](./PWSH/Generated//.cs)
+- [GetDocumentBookmarkNames](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetDocumentBookmarkNames.htm) = [](./PWSH/Generated//.cs)
+- [GetDocumentFolder](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetDocumentFolder.htm) = [](./PWSH/Generated//.cs)
+- [GetDocumentFolderAdministrators](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetDocumentFolderAdministrators.htm) = [](./PWSH/Generated//.cs)
+- [GetDocumentLog](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetDocumentLog.htm) = [](./PWSH/Generated//.cs)
+- [GetDocumentMetaData](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetDocumentMetaData.htm) = [](./PWSH/Generated//.cs)
+- [GetDocumentTask](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetDocumentTask.htm) = [](./PWSH/Generated//.cs)
+- [GetDSCAPISettings](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetDSCAPISettings.htm) = [](./PWSH/Generated//.cs)
+- [GetDSPAPISettings](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetDSPAPISettings.htm) = [](./PWSH/Generated//.cs)
+- [GetDSResources](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetDSResources.htm) = [](./PWSH/Generated//.cs)
+- [GetEDXTaskStatus](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetEDXTaskStatus.htm) = [](./PWSH/Generated//.cs)
+- [GetFieldContentList](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetFieldContentList.htm) = [](./PWSH/Generated//.cs)
+- [GetFieldList](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetFieldList.htm) = [](./PWSH/Generated//.cs)
+- [GetHashCode](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetHashCode.htm) = [](./PWSH/Generated//.cs)
+- [GetLatestTaskLog](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetLatestTaskLog.htm) = [](./PWSH/Generated//.cs)
+- [GetLicense](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetLicense.htm) = [](./PWSH/Generated//.cs)
+- [GetLicenseOverview](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetLicenseOverview.htm) = [](./PWSH/Generated//.cs)
+- [GetNewLicense](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetNewLicense.htm) = [](./PWSH/Generated//.cs)
+- [GetQDSSettings](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetQDSSettings.htm) = [](./PWSH/Generated//.cs)
+- [GetQMSVersion](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetQMSVersion.htm) = [](./PWSH/Generated//.cs)
+- [GetQVPRAPISettings](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetQVPRAPISettings.htm) = [](./PWSH/Generated//.cs)
+- [GetQVSDocumentsAndUsers](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetQVSDocumentsAndUsers.htm) = [](./PWSH/Generated//.cs)
+- [GetQVSDocumentsPerUser](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetQVSDocumentsPerUser.htm) = [](./PWSH/Generated//.cs)
+- [GetQVSLicenseInfo](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetQVSLicenseInfo.htm) = [](./PWSH/Generated//.cs)
+- [GetQVSPerformanceData](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetQVSPerformanceData.htm) = [](./PWSH/Generated//.cs)
+- [GetQVSSettings](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetQVSSettings.htm) = [](./PWSH/Generated//.cs)
+- [GetQVSUtilizationData](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetQVSUtilizationData.htm) = [](./PWSH/Generated//.cs)
+- [GetQVWSAuthentication](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetQVWSAuthentication.htm) = [](./PWSH/Generated//.cs)
+- [GetQVWSSetting](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetQVWSSetting.htm) = [](./PWSH/Generated//.cs)
+- [GetReloadEngineServices](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetReloadEngineServices.htm) = [](./PWSH/Generated//.cs)
+- [GetReports](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetReports.htm) = [](./PWSH/Generated//.cs)
+- [GetSectionAccessTable](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetSectionAccessTable.htm) = [](./PWSH/Generated//.cs)
+- [GetSectionAccessTableByName](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetSectionAccessTableByName.htm) = [](./PWSH/Generated//.cs)
+- [GetSectionAccessTables](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetSectionAccessTables.htm) = [](./PWSH/Generated//.cs)
+- [GetServerObjectMetaDataForUser](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetServerObjectMetaDataForUser.htm) = [](./PWSH/Generated//.cs)
+- [GetServerObjects](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetServerObjects.htm) = [](./PWSH/Generated//.cs)
+- [GetServices](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetServices.htm) = [](./PWSH/Generated//.cs)
+- [GetServiceStatuses](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetServiceStatuses.htm) = [](./PWSH/Generated//.cs)
+- [GetSourceDocumentFolders](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetSourceDocumentFolders.htm) = [](./PWSH/Generated//.cs)
+- [GetSourceDocumentNodes](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetSourceDocumentNodes.htm) = [](./PWSH/Generated//.cs)
+- [GetSourceDocuments](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetSourceDocuments.htm) = [](./PWSH/Generated//.cs)
+- [GetTask](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetTask.htm) = [](./PWSH/Generated//.cs)
+- [GetTaskLog](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetTaskLog.htm) = [](./PWSH/Generated//.cs)
+- [GetTaskLogHistoryEntries](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetTaskLogHistoryEntries.htm) = [](./PWSH/Generated//.cs)
+- [GetTasks](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetTasks.htm) = [](./PWSH/Generated//.cs)
+- [GetTasksForDocument](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetTasksForDocument.htm) = [](./PWSH/Generated//.cs)
+- [GetTaskStatus](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetTaskStatus.htm) = [](./PWSH/Generated//.cs)
+- [GetTaskStatuses](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetTaskStatuses.htm) = [](./PWSH/Generated//.cs)
+- [GetTaskStatusNodes](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetTaskStatusNodes.htm) = [](./PWSH/Generated//.cs)
+- [GetTemplateFolderId](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetTemplateFolderId.htm) = [](./PWSH/Generated//.cs)
+- [GetTimeLimitedServiceKey](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetTimeLimitedServiceKey.htm) = [](./PWSH/Generated//.cs)
+- [GetUserDocumentFolders](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetUserDocumentFolders.htm) = [](./PWSH/Generated//.cs)
+- [GetUserDocumentNodes](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetUserDocumentNodes.htm) = [](./PWSH/Generated//.cs)
+- [GetUserDocuments](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_GetUserDocuments.htm) = [](./PWSH/Generated//.cs)
+- [HasAnyDistributionGroups](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_HasAnyDistributionGroups.htm) = [](./PWSH/Generated//.cs)
+- [ImportAllDocumentTasksForQds](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_ImportAllDocumentTasksForQds.htm) = [](./PWSH/Generated//.cs)
+- [ImportDocumentTask](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_ImportDocumentTask.htm) = [](./PWSH/Generated//.cs)
+- [InitiateUploadExtensionObject](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_InitiateUploadExtensionObject.htm) = [](./PWSH/Generated//.cs)
+- [IsDocumentFolderAdministrator](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_IsDocumentFolderAdministrator.htm) = [](./PWSH/Generated//.cs)
+- [IsDocumentFolderAdministratorForFolder](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_IsDocumentFolderAdministratorForFolder.htm) = [](./PWSH/Generated//.cs)
+- [IsDocumentFolderAdministratorForType](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_IsDocumentFolderAdministratorForType.htm) = [](./PWSH/Generated//.cs)
+- [IsPublisherQDS](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_IsPublisherQDS.htm) = [](./PWSH/Generated//.cs)
+- [IsQdsLoadbalancerConfigured](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_IsQdsLoadbalancerConfigured.htm) = [](./PWSH/Generated//.cs)
+- [IsUserDocumentFolderAdministrator](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_IsUserDocumentFolderAdministrator.htm) = [](./PWSH/Generated//.cs)
+- [IsUserDocumentFolderAdministratorForFolder](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_IsUserDocumentFolderAdministratorForFolder.htm) = [](./PWSH/Generated//.cs)
+- [LookupNames](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_LookupNames.htm) = [](./PWSH/Generated//.cs)
+- [Ping](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_Ping.htm) = [](./PWSH/Generated//.cs)
+- [QdsLoadBalancerConfigHasErrors](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_QdsLoadBalancerConfigHasErrors.htm) = [](./PWSH/Generated//.cs)
+- [QDSNeedRestart](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_QDSNeedRestart.htm) = [](./PWSH/Generated//.cs)
+- [QVSNeedRestart](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_QVSNeedRestart.htm) = [](./PWSH/Generated//.cs)
+- [RemoteGetDocumentTask](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_RemoteGetDocumentTask.htm) = [](./PWSH/Generated//.cs)
+- [RemoteGetServices](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_RemoteGetServices.htm) = [](./PWSH/Generated//.cs)
+- [RemoteGetSourceDocumentFolders](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_RemoteGetSourceDocumentFolders.htm) = [](./PWSH/Generated//.cs)
+- [RemoteGetSourceDocumentNodes](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_RemoteGetSourceDocumentNodes.htm) = [](./PWSH/Generated//.cs)
+- [RemoteGetTaskListForDocID](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_RemoteGetTaskListForDocID.htm) = [](./PWSH/Generated//.cs)
+- [RemoteGetTasks](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_RemoteGetTasks.htm) = [](./PWSH/Generated//.cs)
+- [ResolveUserGroups](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_ResolveUserGroups.htm) = [](./PWSH/Generated//.cs)
+- [RestartQDS](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_RestartQDS.htm) = [](./PWSH/Generated//.cs)
+- [RestartQVS](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_RestartQVS.htm) = [](./PWSH/Generated//.cs)
+- [RunTask](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_RunTask.htm) = [](./PWSH/Generated//.cs)
+- [SaveCALConfiguration](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SaveCALConfiguration.htm) = [](./PWSH/Generated//.cs)
+- [SaveDocumentMetaData](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SaveDocumentMetaData.htm) = [](./PWSH/Generated//.cs)
+- [SaveDocumentTask](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SaveDocumentTask.htm) = [](./PWSH/Generated//.cs)
+- [SaveLicense](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SaveLicense.htm) = [](./PWSH/Generated//.cs)
+- [SaveNewLicense](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SaveNewLicense.htm) = [](./PWSH/Generated//.cs)
+- [SaveQDSSettings](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SaveQDSSettings.htm) = [](./PWSH/Generated//.cs)
+- [SaveQVSSettings](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SaveQVSSettings.htm) = [](./PWSH/Generated//.cs)
+- [SaveSectionAccessTable](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SaveSectionAccessTable.htm) = [](./PWSH/Generated//.cs)
+- [SelectServer](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SelectServer.htm) = [](./PWSH/Generated//.cs)
+- [SelectServerEx](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SelectServerEx.htm) = [](./PWSH/Generated//.cs)
+- [SendDistributionServiceWorkorder](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SendDistributionServiceWorkorder.htm) = [](./PWSH/Generated//.cs)
+- [ServiceHasValidLicense](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_ServiceHasValidLicense.htm) = [](./PWSH/Generated//.cs)
+- [SetAssignedUsers](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SetAssignedUsers.htm) = [](./PWSH/Generated//.cs)
+- [SetDocumentFolderAdministrator](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SetDocumentFolderAdministrator.htm) = [](./PWSH/Generated//.cs)
+- [SetDocumentFolderAdministratorForEmail](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SetDocumentFolderAdministratorForEmail.htm) = [](./PWSH/Generated//.cs)
+- [SetDSCAPISettings](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SetDSCAPISettings.htm) = [](./PWSH/Generated//.cs)
+- [SetDSPAPISettings](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SetDSPAPISettings.htm) = [](./PWSH/Generated//.cs)
+- [SetQVPRAPISettings](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SetQVPRAPISettings.htm) = [](./PWSH/Generated//.cs)
+- [SetQVWSAuthentication](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SetQVWSAuthentication.htm) = [](./PWSH/Generated//.cs)
+- [SetQVWSSetting](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_SetQVWSSetting.htm) = [](./PWSH/Generated//.cs)
+- [ShutdownDistributionService](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_ShutdownDistributionService.htm) = [](./PWSH/Generated//.cs)
+- [TakeServerObject](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_TakeServerObject.htm) = [](./PWSH/Generated//.cs)
+- [TriggerEDXTask](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_TriggerEDXTask.htm) = [](./PWSH/Generated//.cs)
+- [UpdateDocumentAdministratorEmail](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_UpdateDocumentAdministratorEmail.htm) = [](./PWSH/Generated//.cs)
+- [UpdateLicense](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_UpdateLicense.htm) = [](./PWSH/Generated//.cs)
+- [UpdateServices](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_UpdateServices.htm) = [](./PWSH/Generated//.cs)
+- [ValidateLicense](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_ValidateLicense.htm) = [](./PWSH/Generated//.cs)
+- [WriteExtensionObject](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_WriteExtensionObject.htm) = [](./PWSH/Generated//.cs)
 
-- AbortTask = Stop-QVTask
-
-- AddSelections = Add-QVSelections
-
-- CheckLicenseServerStatus = Test-QVLicenseServerStatus
-
-- ClearLicense = Clear-QVLicense
-
-- ClearQVSCache = Clear-QVQVSCache
-
-- ClearSelections = Clear-QVSelections
-
-- CloseAndInstallExtensionObject = Close-QVAndInstallExtensionObject
-
-- CloseSession = Close-QVSession
-
-- CreateSession = New-QVSession
-
-- DeleteAssignedUsers = Remove-QVAssignedUsers
-
-- DeleteDocumentAdministrators = Remove-QVDocumentAdministrators
-
-- DeleteSectionAccessTable = Remove-QVSectionAccessTable
-
-- DeleteServerObject = Remove-QVServerObject
-
-- DeleteTask = Remove-QVTask
-
-- FindEDX = Find-QVEDX
-
-- FindTask = Find-QVTask
-
-- GetAlertText = Get-QVAlertText
-
-- GetAllDistributionGroups = Get-QVAllDistributionGroups
-
-- GetAllMissingDistributionGroups = Get-QVAllMissingDistributionGroups
-
-- GetAssignedUsers = Get-QVAssignedUsers
-
-- GetAvailableDirectories = Get-QVAvailableDirectories
-
-- GetAvailableDSProviders = Get-QVAvailableDSProviders
-
-- GetCALConfiguration = Get-QVCALConfiguration
-
-- GetCALInfoForUser = Get-QVCALInfoForUser
-
-- GetCategories = Get-QVCategories
-
-- GetDistributionGroups = Get-QVDistributionGroups
-
-- GetDistributionGroupsDefinition = Get-QVDistributionGroupsDefinition
-
-- GetDocumentBookmarkNames = Get-QVDocumentBookmarkNames
-
-- GetDocumentFolder = Get-QVDocumentFolder
-
-- GetDocumentFolderAdministrators = Get-QVDocumentFolderAdministrators
-
-- GetDocumentLog = Get-QVDocumentLog
-
-- GetDocumentMetaData = Get-QVDocumentMetaData
-
-- GetDocumentTask = Get-QVDocumentTask
-
-- GetDSCAPISettings = Get-QVDSCAPISettings
-
-- GetDSPAPISettings = Get-QVDSPAPISettings
-
-- GetDSResources = Get-QVDSResources
-
-- GetEDXTaskStatus = Get-QVEDXTaskStatus
-
-- GetFieldContentList = Get-QVFieldContentList
-
-- GetFieldList = Get-QVFieldList
-
-- GetHashCode = Get-QVHashCode
-
-- GetLatestTaskLog = Get-QVLatestTaskLog
-
-- GetLicense = Get-QVLicense
-
-- GetLicenseOverview = Get-QVLicenseOverview
-
-- GetNewLicense = Get-QVNewLicense
-
-- GetQDSSettings = Get-QVQDSSettings
-
-- GetQMSVersion = Get-QVQMSVersion
-
-- GetQVPRAPISettings = Get-QVQVPRAPISettings
-
-- GetQVSDocumentsAndUsers = Get-QVQVSDocumentsAndUsers
-
-- GetQVSDocumentsPerUser = Get-QVQVSDocumentsPerUser
-
-- GetQVSLicenseInfo = Get-QVQVSLicenseInfo
-
-- GetQVSPerformanceData = Get-QVQVSPerformanceData
-
-- GetQVSSettings = Get-QVQVSSettings
-
-- GetQVSUtilizationData = Get-QVQVSUtilizationData
-
-- GetQVWSAuthentication = Get-QVQVWSAuthentication
-
-- GetQVWSSetting = Get-QVQVWSSetting
-
-- GetReloadEngineServices = Get-QVReloadEngineServices
-
-- GetReports = Get-QVReports
-
-- GetSectionAccessTable = Get-QVSectionAccessTable
-
-- GetSectionAccessTableByName = Get-QVSectionAccessTableByName
-
-- GetSectionAccessTables = Get-QVSectionAccessTables
-
-- GetServerObjectMetaDataForUser = Get-QVServerObjectMetaDataForUser
-
-- GetServerObjects = Get-QVServerObjects
-
-- GetServices = Get-QVServices
-
-- GetServiceStatuses = Get-QVServiceStatuses
-
-- GetSourceDocumentFolders = Get-QVSourceDocumentFolders
-
-- GetSourceDocumentNodes = Get-QVSourceDocumentNodes
-
-- GetSourceDocuments = Get-QVSourceDocuments
-
-- GetTask = Get-QVTask
-
-- GetTaskLog = Get-QVTaskLog
-
-- GetTaskLogHistoryEntries = Get-QVTaskLogHistoryEntries
-
-- GetTasks = Get-QVTasks
-
-- GetTasksForDocument = Get-QVTasksForDocument
-
-- GetTaskStatus = Get-QVTaskStatus
-
-- GetTaskStatuses = Get-QVTaskStatuses
-
-- GetTaskStatusNodes = Get-QVTaskStatusNodes
-
-- GetTemplateFolderId = Get-QVTemplateFolderId
-
-- GetTimeLimitedServiceKey = Get-QVTimeLimitedServiceKey
-
-- GetUserDocumentFolders = Get-QVUserDocumentFolders
-
-- GetUserDocumentNodes = Get-QVUserDocumentNodes
-
-- GetUserDocuments = Get-QVUserDocuments
-
-- HasAnyDistributionGroups = Test-QVAnyDistributionGroups
-
-- ImportAllDocumentTasksForQds = Import-QVAllDocumentTasksForQds
-
-- ImportDocumentTask = Import-QVDocumentTask
-
-- InitiateUploadExtensionObject = Invoke-QVUploadExtensionObject
-
-- IsDocumentFolderAdministrator = Test-QVDocumentFolderAdministrator
-
-- IsDocumentFolderAdministratorForFolder = Test-QVDocumentFolderAdministratorForFolder
-
-- IsDocumentFolderAdministratorForType = Test-QVDocumentFolderAdministratorForType
-
-- IsPublisherQDS = Test-QVPublisherQDS
-
-- IsQdsLoadbalancerConfigured = Test-QVQdsLoadbalancerConfigured
-
-- IsUserDocumentFolderAdministrator = Test-QVUserDocumentFolderAdministrator
-
-- IsUserDocumentFolderAdministratorForFolder = Test-QVUserDocumentFolderAdministratorForFolder
-
-- LookupNames = Find-QVNames
-
-- Ping = Test-QVPing
-
-- QdsLoadBalancerConfigHasErrors = Test-QVLoadBalancerConfigHasErrors
-
-- QDSNeedRestart = Test-QVRestart
-
-- QVSNeedRestart = Test-QVRestart
-
-- RemoteGetDocumentTask = Get-QVRemoteDocumentTask
-
-- RemoteGetServices = Get-QVRemoteServices
-
-- RemoteGetSourceDocumentFolders = Get-QVRemoteSourceDocumentFolders
-
-- RemoteGetSourceDocumentNodes = Get-QVRemoteSourceDocumentNodes
-
-- RemoteGetTaskListForDocID = Get-QVRemoteTaskListForDocID
-
-- RemoteGetTasks = Get-QVRemoteTasks
-
-- ResolveUserGroups = Resolve-QVUserGroups
-
-- RestartQDS = Restart-QVQDS
-
-- RestartQVS = Restart-QVQVS
-
-- RunTask = Start-QVTask
-
-- SaveCALConfiguration = Save-QVCALConfiguration
-
-- SaveDocumentMetaData = Save-QVDocumentMetaData
-
-- SaveDocumentTask = Save-QVDocumentTask
-
-- SaveLicense = Save-QVLicense
-
-- SaveNewLicense = Save-QVNewLicense
-
-- SaveQDSSettings = Save-QVQDSSettings
-
-- SaveQVSSettings = Save-QVQVSSettings
-
-- SaveSectionAccessTable = Save-QVSectionAccessTable
-
-- SelectServer = Select-QVServer
-
-- SelectServerEx = Select-QVServerEx
-
-- SendDistributionServiceWorkorder = Send-QVDistributionServiceWorkorder
-
-- ServiceHasValidLicense = Test-QVHasValidLicense
-
-- SetAssignedUsers = Set-QVAssignedUsers
-
-- SetDocumentFolderAdministrator = Set-QVDocumentFolderAdministrator
-
-- SetDocumentFolderAdministratorForEmail = Set-QVDocumentFolderAdministratorForEmail
-
-- SetDSCAPISettings = Set-QVDSCAPISettings
-
-- SetDSPAPISettings = Set-QVDSPAPISettings
-
-- SetQVPRAPISettings = Set-QVQVPRAPISettings
-
-- SetQVWSAuthentication = Set-QVQVWSAuthentication
-
-- SetQVWSSetting = Set-QVQVWSSetting
-
-- ShutdownDistributionService = Stop-QVDistributionService
-
-- TakeServerObject = Get-QVServerObject
-
-- TriggerEDXTask = Start-QVEDXTask
-
-- UpdateDocumentAdministratorEmail = Update-QVDocumentAdministratorEmail
-
-- UpdateLicense = Update-QVLicense
-
-- UpdateServices = Update-QVServices
-
-- ValidateLicense = Confirm-QVLicense
-
-- WriteExtensionObject = Write-QVExtensionObject
-- [WriteExtensionObject](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_WriteExtensionObject.htm) - [ExtensionObject](./PWSH/Generated/Write/ExtensionObject.cs)
