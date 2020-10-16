@@ -9,7 +9,7 @@ These functions can be used for viewing and editing configuration settings, as w
 
 [IQMS4 Methods](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/Methods_T_PIX_Services_V12_Api4_IQMS4.htm)
 
-[ddd](../QMSAPIMethodtoCmdlet.md)
+[QMSAPIMethodtoCmdlet](./QMSAPIMethodtoCmdlet.md)
 
 
 ## To Do:
