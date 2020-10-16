@@ -268,4 +268,4 @@
 - ValidateLicense = Confirm-QVLicense
 
 - WriteExtensionObject = Write-QVExtensionObject
-
+- [WriteExtensionObject](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/M_PIX_Services_V12_Api4_IQMS4_WriteExtensionObject.htm) - [ExtensionObject](./PWSH/Generated/Write/ExtensionObject.cs)
