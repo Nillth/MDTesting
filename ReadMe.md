@@ -9,9 +9,10 @@ These functions can be used for viewing and editing configuration settings, as w
 
 [IQMS4 Methods](https://help.qlik.com/en-US/qlikview-developer/April2020/APIs/QMS+API/html/Methods_T_PIX_Services_V12_Api4_IQMS4.htm)
 
-[QMSAPI Method to Cmdlets](./QMSAPI Method to Cmdlet.md)
+[QMSAPI Method to Cmdlets](./QMSAPI_Method_to_Cmdlet.md)
 
-[QMSAPI DataObjects](./QMSAPI DataObjects.md)
+[QMSAPI DataObjects](./QMSAPI_DataObjects.md)
+
 
 ## To Do:
  - [ ] More detailed documentation around using the APIs
